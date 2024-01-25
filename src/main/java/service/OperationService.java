@@ -24,7 +24,7 @@ public class OperationService {
                     operation.setResult(divResult);
                     return operation;
                 } else {
-                    throw new IllegalArgumentException("Can't divide by zero! Enter another number");
+                    throw new IllegalArgumentException();
                 }
         }
         throw new IllegalArgumentException();
